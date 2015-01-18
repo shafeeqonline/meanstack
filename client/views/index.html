@@ -4,12 +4,12 @@
   <title>Page Title</title>
 </head>
 
-<body>
-  <div ng-controller="meetupsController">
-  	<h1>There are {{meetupsCount}} meetups</h1>
-  	<ul>
-  		<li ng-repeat="meetup in meetups">
-  			{{meetup.name}}
+<body style="background:steelblue;">
+  <div ng-controller="meetupsController" style="margin : 10% auto;  width:50%; text-align:center">
+  	<h1>There are {{meetups.length}} strings in the list</h1>
+  	<ul style = "list-style: none; text-align : left;">
+  		<li ng-repeat="meetup in meetups | orderBy : 'name' : reverse ">
+  			{{meetup.name  | uppercase}}
   		</li>
   	</ul>
   	<form ng-submit="createMeetup()">
