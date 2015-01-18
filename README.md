@@ -12,6 +12,6 @@ To run it on your local you can clone this repo and then
     Voila!! You have just ran your MEAN appliction.
     
     
-P.S. : I have assumed that you have mongodb setup and it is running on 27017 with the db name as mean-db
+P.S. : I have assumed that you have mongodb setup and it is running on 27017 with the db name as mean-demo
 
 For any info just drop a mail at shafeeq.rahman01@gmail.com
